@@ -1,0 +1,6 @@
+framework module PickCreatePod05 {
+  umbrella header "PickCreatePod05-umbrella.h"
+
+  export *
+  module * { export * }
+}

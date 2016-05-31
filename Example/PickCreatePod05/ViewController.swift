@@ -7,12 +7,15 @@
 //
 
 import UIKit
-
+import PickCreatePod05
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let pick = PickHelper()
+        pick.pickTestLog()
     }
 
     override func didReceiveMemoryWarning() {

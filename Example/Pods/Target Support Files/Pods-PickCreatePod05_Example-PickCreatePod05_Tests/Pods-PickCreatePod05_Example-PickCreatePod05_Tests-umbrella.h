@@ -1,0 +1,6 @@
+#import <UIKit/UIKit.h>
+
+
+FOUNDATION_EXPORT double Pods_PickCreatePod05_Example_PickCreatePod05_TestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_PickCreatePod05_Example_PickCreatePod05_TestsVersionString[];
+

@@ -1,0 +1,14 @@
+PODS:
+  - PickCreatePod05 (0.1.0)
+
+DEPENDENCIES:
+  - PickCreatePod05 (from `../`)
+
+EXTERNAL SOURCES:
+  PickCreatePod05:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PickCreatePod05: 2f5eb09838f30c2e43a50357601d71ff85200be2
+
+COCOAPODS: 0.39.0

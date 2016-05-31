@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AB56015A9B4B2B5A9AE4CE646728848 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		27C29DC5D485A69934C791C7C620BD5A /* PickCreatePod05-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FBDFCAABA5059E4EFF2A94782E5C82 /* PickCreatePod05-dummy.m */; };
+		3EA9C228AA7649A0C943A9A73DF9040B /* Pods-PickCreatePod05_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8E493AA17118055B59F3F7A3E1BAD2 /* Pods-PickCreatePod05_Example-dummy.m */; };
+		4D8B8A8911212CFA2B4BCAD2A368F169 /* Pods-PickCreatePod05_Example-PickCreatePod05_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BF0CD0A6C59029FC384E951DEC8DB8 /* Pods-PickCreatePod05_Example-PickCreatePod05_Tests-dummy.m */; };
+		677D884C1C28717F11CBCE9D92D4C6AA /* PickCreatePod05.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D0A907241DAEA527B27786FE00A12479 /* PickCreatePod05.bundle */; };
+		9E3BC503AFD3BD2CE2468588EFFFF69E /* PickCreatePod05-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EBF5CACB1858C71C37D02B14C03B554 /* PickCreatePod05-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7D7D8F71CFDA313004E7D5E /* PickHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D7D8F61CFDA313004E7D5E /* PickHelper.swift */; };
+		AE9C1A98CCA48F6D2B1F8E01C21B8CBF /* Pods-PickCreatePod05_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54CDC49B101CDBFA4DF5F7B6FD68A830 /* Pods-PickCreatePod05_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B36C07AE183BF3BC45927DA5A4BF2641 /* Pods-PickCreatePod05_Example-PickCreatePod05_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC9479A9A7FAC076CA794D7C4D815287 /* Pods-PickCreatePod05_Example-PickCreatePod05_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B50110136951102781C8C86EEBBFB603 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		C8923A1C07F0E7905B6545571617ADC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		E35F33FA8C24711AEA5F5FE3BCD4FB2E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E904BA03C89B4F5CC76B8ABCDFF91AB8 /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34BCD3688DB29089A8E223D5B36DF019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3964A18CE9824914ABB460CEB11E78DB;
+			remoteInfo = PickCreatePod05;
+		};
+		7062BEB723D715B984A060A3A5F8A3B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0F8E1568CC191618DC860F2AABDFE2F;
+			remoteInfo = "PickCreatePod05-PickCreatePod05";
+		};
+		91C980ADB1EC10BE17C0ED80D84371AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3964A18CE9824914ABB460CEB11E78DB;
+			remoteInfo = PickCreatePod05;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01DDCE1862C1ECA291A0B6A9AA172BB0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0773E61FE3508C4D32F8D36B93CCD074 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08BB85388A47DFE71726C427C31EA4BC /* Pods-PickCreatePod05_Example-PickCreatePod05_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PickCreatePod05_Example-PickCreatePod05_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0BAA38A188B45B0EBB57AE5497293E9E /* Pods-PickCreatePod05_Example-PickCreatePod05_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PickCreatePod05_Example-PickCreatePod05_Tests.modulemap"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		437B7E9770FB7BE1FD08F099E8684BA6 /* Pods_PickCreatePod05_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickCreatePod05_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		449C535292011E7DA0C189C5316F0BD1 /* Pods-PickCreatePod05_Example-PickCreatePod05_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PickCreatePod05_Example-PickCreatePod05_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4670D7A3E8E7ECE7376DB203A6B3E1F5 /* Pods-PickCreatePod05_Example-PickCreatePod05_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PickCreatePod05_Example-PickCreatePod05_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		54CDC49B101CDBFA4DF5F7B6FD68A830 /* Pods-PickCreatePod05_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PickCreatePod05_Example-umbrella.h"; sourceTree = "<group>"; };
+		59B0D6CA2CA34D70A0AE89EF52E788B9 /* PickCreatePod05.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PickCreatePod05.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		717A6383E446F3118CD57B5A9C404A01 /* Pods-PickCreatePod05_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PickCreatePod05_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		79518B8A331B3C4161E1525C689CA588 /* Pods-PickCreatePod05_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PickCreatePod05_Example-resources.sh"; sourceTree = "<group>"; };
+		7EBF5CACB1858C71C37D02B14C03B554 /* PickCreatePod05-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PickCreatePod05-umbrella.h"; sourceTree = "<group>"; };
+		85F5FDD5176E374589DB95AA387FB595 /* PickCreatePod05.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PickCreatePod05.modulemap; sourceTree = "<group>"; };
+		8731EFB42AF1DA5728834A013DA66DC2 /* Pods-PickCreatePod05_Example-PickCreatePod05_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PickCreatePod05_Example-PickCreatePod05_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		92769571FA59C29582A0BE5416A87351 /* Pods-PickCreatePod05_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PickCreatePod05_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		92A11EB213F789DDF466ED0B3680D31D /* Pods_PickCreatePod05_Example_PickCreatePod05_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickCreatePod05_Example_PickCreatePod05_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F5DA67D1E7F288C0A7EA384D2BADA4 /* PickCreatePod05.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PickCreatePod05.xcconfig; sourceTree = "<group>"; };
+		96FBDFCAABA5059E4EFF2A94782E5C82 /* PickCreatePod05-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PickCreatePod05-dummy.m"; sourceTree = "<group>"; };
+		9B00CAA25EA91E00E56CA6C7AC02338E /* Pods-PickCreatePod05_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PickCreatePod05_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9E8E493AA17118055B59F3F7A3E1BAD2 /* Pods-PickCreatePod05_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PickCreatePod05_Example-dummy.m"; sourceTree = "<group>"; };
+		A1BF0CD0A6C59029FC384E951DEC8DB8 /* Pods-PickCreatePod05_Example-PickCreatePod05_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PickCreatePod05_Example-PickCreatePod05_Tests-dummy.m"; sourceTree = "<group>"; };
+		A52A3F0FBAD66A2C20CBA3DDBB5296FD /* PickCreatePod05-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PickCreatePod05-prefix.pch"; sourceTree = "<group>"; };
+		A7D7D8F61CFDA313004E7D5E /* PickHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickHelper.swift; sourceTree = "<group>"; };
+		ABC65E0839309BAA279E88A2B20E9516 /* Pods-PickCreatePod05_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PickCreatePod05_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B3FE339BFA930023947CE22102481EAD /* Pods-PickCreatePod05_Example-PickCreatePod05_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PickCreatePod05_Example-PickCreatePod05_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CDA0D6BB709F2DFFB4A1CD432FD88B91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0A907241DAEA527B27786FE00A12479 /* PickCreatePod05.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickCreatePod05.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB06B9020E554EF2B5BD14698D98417C /* Pods-PickCreatePod05_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PickCreatePod05_Example.modulemap"; sourceTree = "<group>"; };
+		E904BA03C89B4F5CC76B8ABCDFF91AB8 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		EC47DF5D75FB902BE4F4F564F27CC561 /* Pods-PickCreatePod05_Example-PickCreatePod05_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PickCreatePod05_Example-PickCreatePod05_Tests-resources.sh"; sourceTree = "<group>"; };
+		EE1DCB1F09E7E7BDC2D91FFCA3D5570E /* Pods-PickCreatePod05_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PickCreatePod05_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FC9479A9A7FAC076CA794D7C4D815287 /* Pods-PickCreatePod05_Example-PickCreatePod05_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PickCreatePod05_Example-PickCreatePod05_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C1A4FFD5114B7EDA46B3B807C7867DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50110136951102781C8C86EEBBFB603 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0B5A5C19AB4CA3F45CCB519C877A4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8923A1C07F0E7905B6545571617ADC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9B8C0CBF22FCB3CD13F8A58F1F79BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD1FDCE6A7C3CD37F666C77B3E9BA50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB56015A9B4B2B5A9AE4CE646728848 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B4AB8484C4C747423F8AF884194EFB1 /* Pods-PickCreatePod05_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CDA0D6BB709F2DFFB4A1CD432FD88B91 /* Info.plist */,
+				DB06B9020E554EF2B5BD14698D98417C /* Pods-PickCreatePod05_Example.modulemap */,
+				92769571FA59C29582A0BE5416A87351 /* Pods-PickCreatePod05_Example-acknowledgements.markdown */,
+				717A6383E446F3118CD57B5A9C404A01 /* Pods-PickCreatePod05_Example-acknowledgements.plist */,
+				9E8E493AA17118055B59F3F7A3E1BAD2 /* Pods-PickCreatePod05_Example-dummy.m */,
+				ABC65E0839309BAA279E88A2B20E9516 /* Pods-PickCreatePod05_Example-frameworks.sh */,
+				79518B8A331B3C4161E1525C689CA588 /* Pods-PickCreatePod05_Example-resources.sh */,
+				54CDC49B101CDBFA4DF5F7B6FD68A830 /* Pods-PickCreatePod05_Example-umbrella.h */,
+				9B00CAA25EA91E00E56CA6C7AC02338E /* Pods-PickCreatePod05_Example.debug.xcconfig */,
+				EE1DCB1F09E7E7BDC2D91FFCA3D5570E /* Pods-PickCreatePod05_Example.release.xcconfig */,
+			);
+			name = "Pods-PickCreatePod05_Example";
+			path = "Target Support Files/Pods-PickCreatePod05_Example";
+			sourceTree = "<group>";
+		};
+		6FB2462A27F512FDFBD53C8E7814B577 /* PickCreatePod05 */ = {
+			isa = PBXGroup;
+			children = (
+				966CCC25D560AD46058EAABD71CB2960 /* Classes */,
+			);
+			path = PickCreatePod05;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				E82A060059064E7D386D02A460701F3A /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				88147B27B9F06DB3254DDBA96848897A /* Products */,
+				CCD91D4208FE1BAF12D6CE4E49EABA88 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		88147B27B9F06DB3254DDBA96848897A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0A907241DAEA527B27786FE00A12479 /* PickCreatePod05.bundle */,
+				59B0D6CA2CA34D70A0AE89EF52E788B9 /* PickCreatePod05.framework */,
+				437B7E9770FB7BE1FD08F099E8684BA6 /* Pods_PickCreatePod05_Example.framework */,
+				92A11EB213F789DDF466ED0B3680D31D /* Pods_PickCreatePod05_Example_PickCreatePod05_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		927B6016A43E650478D7BDDE78DFBFF9 /* PickCreatePod05 */ = {
+			isa = PBXGroup;
+			children = (
+				6FB2462A27F512FDFBD53C8E7814B577 /* PickCreatePod05 */,
+				92A11522375D4E0C439744E9EF372EFC /* Support Files */,
+			);
+			name = PickCreatePod05;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		92A11522375D4E0C439744E9EF372EFC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				01DDCE1862C1ECA291A0B6A9AA172BB0 /* Info.plist */,
+				85F5FDD5176E374589DB95AA387FB595 /* PickCreatePod05.modulemap */,
+				94F5DA67D1E7F288C0A7EA384D2BADA4 /* PickCreatePod05.xcconfig */,
+				96FBDFCAABA5059E4EFF2A94782E5C82 /* PickCreatePod05-dummy.m */,
+				A52A3F0FBAD66A2C20CBA3DDBB5296FD /* PickCreatePod05-prefix.pch */,
+				7EBF5CACB1858C71C37D02B14C03B554 /* PickCreatePod05-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PickCreatePod05";
+			sourceTree = "<group>";
+		};
+		966CCC25D560AD46058EAABD71CB2960 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E904BA03C89B4F5CC76B8ABCDFF91AB8 /* ReplaceMe.swift */,
+				A7D7D8F61CFDA313004E7D5E /* PickHelper.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AD2CD6BAA36C8FFF3AD1C9AC532E9941 /* Pods-PickCreatePod05_Example-PickCreatePod05_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0773E61FE3508C4D32F8D36B93CCD074 /* Info.plist */,
+				0BAA38A188B45B0EBB57AE5497293E9E /* Pods-PickCreatePod05_Example-PickCreatePod05_Tests.modulemap */,
+				449C535292011E7DA0C189C5316F0BD1 /* Pods-PickCreatePod05_Example-PickCreatePod05_Tests-acknowledgements.markdown */,
+				08BB85388A47DFE71726C427C31EA4BC /* Pods-PickCreatePod05_Example-PickCreatePod05_Tests-acknowledgements.plist */,
+				A1BF0CD0A6C59029FC384E951DEC8DB8 /* Pods-PickCreatePod05_Example-PickCreatePod05_Tests-dummy.m */,
+				4670D7A3E8E7ECE7376DB203A6B3E1F5 /* Pods-PickCreatePod05_Example-PickCreatePod05_Tests-frameworks.sh */,
+				EC47DF5D75FB902BE4F4F564F27CC561 /* Pods-PickCreatePod05_Example-PickCreatePod05_Tests-resources.sh */,
+				FC9479A9A7FAC076CA794D7C4D815287 /* Pods-PickCreatePod05_Example-PickCreatePod05_Tests-umbrella.h */,
+				B3FE339BFA930023947CE22102481EAD /* Pods-PickCreatePod05_Example-PickCreatePod05_Tests.debug.xcconfig */,
+				8731EFB42AF1DA5728834A013DA66DC2 /* Pods-PickCreatePod05_Example-PickCreatePod05_Tests.release.xcconfig */,
+			);
+			name = "Pods-PickCreatePod05_Example-PickCreatePod05_Tests";
+			path = "Target Support Files/Pods-PickCreatePod05_Example-PickCreatePod05_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CCD91D4208FE1BAF12D6CE4E49EABA88 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B4AB8484C4C747423F8AF884194EFB1 /* Pods-PickCreatePod05_Example */,
+				AD2CD6BAA36C8FFF3AD1C9AC532E9941 /* Pods-PickCreatePod05_Example-PickCreatePod05_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E82A060059064E7D386D02A460701F3A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				927B6016A43E650478D7BDDE78DFBFF9 /* PickCreatePod05 */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		153FF9B3F0F3E4D02C8F1FD958F19816 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE9C1A98CCA48F6D2B1F8E01C21B8CBF /* Pods-PickCreatePod05_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9048CF0C300BB3E6569617B654AD6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36C07AE183BF3BC45927DA5A4BF2641 /* Pods-PickCreatePod05_Example-PickCreatePod05_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C7C5D29FD4C7D2F0C874E61A2732F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E3BC503AFD3BD2CE2468588EFFFF69E /* PickCreatePod05-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3964A18CE9824914ABB460CEB11E78DB /* PickCreatePod05 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43982ACBC0EF235A1E7D79601C11535 /* Build configuration list for PBXNativeTarget "PickCreatePod05" */;
+			buildPhases = (
+				7427D3D939C827D685776846E34D1E7A /* Sources */,
+				8C1A4FFD5114B7EDA46B3B807C7867DE /* Frameworks */,
+				635A9D002F37C09F067AB5E315A07091 /* Resources */,
+				94C7C5D29FD4C7D2F0C874E61A2732F5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189E1E89FA8C1693A1E63AE9EB879110 /* PBXTargetDependency */,
+			);
+			name = PickCreatePod05;
+			productName = PickCreatePod05;
+			productReference = 59B0D6CA2CA34D70A0AE89EF52E788B9 /* PickCreatePod05.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		51FE8EE08580D57463B92A3D220EE685 /* Pods-PickCreatePod05_Example-PickCreatePod05_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9452CF0D75A068ACBF6D087E19E6AFD9 /* Build configuration list for PBXNativeTarget "Pods-PickCreatePod05_Example-PickCreatePod05_Tests" */;
+			buildPhases = (
+				3A5C5AEDE0B18CE8F56646B05AD46E4F /* Sources */,
+				CF0B5A5C19AB4CA3F45CCB519C877A4C /* Frameworks */,
+				5A9048CF0C300BB3E6569617B654AD6D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5104BCEDBEB49D4C93E3DC3F01B1320E /* PBXTargetDependency */,
+			);
+			name = "Pods-PickCreatePod05_Example-PickCreatePod05_Tests";
+			productName = "Pods-PickCreatePod05_Example-PickCreatePod05_Tests";
+			productReference = 92A11EB213F789DDF466ED0B3680D31D /* Pods_PickCreatePod05_Example_PickCreatePod05_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0F8E1568CC191618DC860F2AABDFE2F /* PickCreatePod05-PickCreatePod05 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FF012622860312F5788484F5BEE5634 /* Build configuration list for PBXNativeTarget "PickCreatePod05-PickCreatePod05" */;
+			buildPhases = (
+				27A41B2B419F07E94DFF6581CF52473E /* Sources */,
+				DC9B8C0CBF22FCB3CD13F8A58F1F79BE /* Frameworks */,
+				FBB79643DC3A1184B49B18698BCE4B09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PickCreatePod05-PickCreatePod05";
+			productName = "PickCreatePod05-PickCreatePod05";
+			productReference = D0A907241DAEA527B27786FE00A12479 /* PickCreatePod05.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E8A91BDA954A0FBF267EB9202996C49F /* Pods-PickCreatePod05_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C1C6F3E65DCEFB33B0954DA7088DBA9 /* Build configuration list for PBXNativeTarget "Pods-PickCreatePod05_Example" */;
+			buildPhases = (
+				1484A9DDCE678005E733944FAF498B57 /* Sources */,
+				DDD1FDCE6A7C3CD37F666C77B3E9BA50 /* Frameworks */,
+				153FF9B3F0F3E4D02C8F1FD958F19816 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F944C656CBAB9E913ED4A089AA69B74A /* PBXTargetDependency */,
+			);
+			name = "Pods-PickCreatePod05_Example";
+			productName = "Pods-PickCreatePod05_Example";
+			productReference = 437B7E9770FB7BE1FD08F099E8684BA6 /* Pods_PickCreatePod05_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 88147B27B9F06DB3254DDBA96848897A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3964A18CE9824914ABB460CEB11E78DB /* PickCreatePod05 */,
+				A0F8E1568CC191618DC860F2AABDFE2F /* PickCreatePod05-PickCreatePod05 */,
+				E8A91BDA954A0FBF267EB9202996C49F /* Pods-PickCreatePod05_Example */,
+				51FE8EE08580D57463B92A3D220EE685 /* Pods-PickCreatePod05_Example-PickCreatePod05_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		635A9D002F37C09F067AB5E315A07091 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				677D884C1C28717F11CBCE9D92D4C6AA /* PickCreatePod05.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB79643DC3A1184B49B18698BCE4B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1484A9DDCE678005E733944FAF498B57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA9C228AA7649A0C943A9A73DF9040B /* Pods-PickCreatePod05_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27A41B2B419F07E94DFF6581CF52473E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A5C5AEDE0B18CE8F56646B05AD46E4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8B8A8911212CFA2B4BCAD2A368F169 /* Pods-PickCreatePod05_Example-PickCreatePod05_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7427D3D939C827D685776846E34D1E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C29DC5D485A69934C791C7C620BD5A /* PickCreatePod05-dummy.m in Sources */,
+				E35F33FA8C24711AEA5F5FE3BCD4FB2E /* ReplaceMe.swift in Sources */,
+				A7D7D8F71CFDA313004E7D5E /* PickHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		189E1E89FA8C1693A1E63AE9EB879110 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PickCreatePod05-PickCreatePod05";
+			target = A0F8E1568CC191618DC860F2AABDFE2F /* PickCreatePod05-PickCreatePod05 */;
+			targetProxy = 7062BEB723D715B984A060A3A5F8A3B3 /* PBXContainerItemProxy */;
+		};
+		5104BCEDBEB49D4C93E3DC3F01B1320E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PickCreatePod05;
+			target = 3964A18CE9824914ABB460CEB11E78DB /* PickCreatePod05 */;
+			targetProxy = 34BCD3688DB29089A8E223D5B36DF019 /* PBXContainerItemProxy */;
+		};
+		F944C656CBAB9E913ED4A089AA69B74A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PickCreatePod05;
+			target = 3964A18CE9824914ABB460CEB11E78DB /* PickCreatePod05 */;
+			targetProxy = 91C980ADB1EC10BE17C0ED80D84371AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1769520B59EFF2B60F1AAB618A0B219C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE1DCB1F09E7E7BDC2D91FFCA3D5570E /* Pods-PickCreatePod05_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PickCreatePod05_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PickCreatePod05_Example/Pods-PickCreatePod05_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PickCreatePod05_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		37D92B89BC805F0FB623F0581D3ED0BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B00CAA25EA91E00E56CA6C7AC02338E /* Pods-PickCreatePod05_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PickCreatePod05_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PickCreatePod05_Example/Pods-PickCreatePod05_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PickCreatePod05_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6877CAD8DC92D949E544978B40EDFF14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3FE339BFA930023947CE22102481EAD /* Pods-PickCreatePod05_Example-PickCreatePod05_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PickCreatePod05_Example-PickCreatePod05_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PickCreatePod05_Example-PickCreatePod05_Tests/Pods-PickCreatePod05_Example-PickCreatePod05_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PickCreatePod05_Example_PickCreatePod05_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9BE42AA787B47ACFAED64E5223A56622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F5DA67D1E7F288C0A7EA384D2BADA4 /* PickCreatePod05.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PickCreatePod05;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B29720AA6A07053F4582E3035EE923AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F5DA67D1E7F288C0A7EA384D2BADA4 /* PickCreatePod05.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PickCreatePod05/PickCreatePod05-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PickCreatePod05/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PickCreatePod05/PickCreatePod05.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PickCreatePod05;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B72D46E68BC6E41D39F334B28899704D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F5DA67D1E7F288C0A7EA384D2BADA4 /* PickCreatePod05.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PickCreatePod05;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		C982122A81B0C014EA597213633747D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F5DA67D1E7F288C0A7EA384D2BADA4 /* PickCreatePod05.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PickCreatePod05/PickCreatePod05-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PickCreatePod05/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PickCreatePod05/PickCreatePod05.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PickCreatePod05;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC87F83FA2C0BCE2B9160B0A5B95D7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8731EFB42AF1DA5728834A013DA66DC2 /* Pods-PickCreatePod05_Example-PickCreatePod05_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PickCreatePod05_Example-PickCreatePod05_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PickCreatePod05_Example-PickCreatePod05_Tests/Pods-PickCreatePod05_Example-PickCreatePod05_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PickCreatePod05_Example_PickCreatePod05_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C1C6F3E65DCEFB33B0954DA7088DBA9 /* Build configuration list for PBXNativeTarget "Pods-PickCreatePod05_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37D92B89BC805F0FB623F0581D3ED0BA /* Debug */,
+				1769520B59EFF2B60F1AAB618A0B219C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FF012622860312F5788484F5BEE5634 /* Build configuration list for PBXNativeTarget "PickCreatePod05-PickCreatePod05" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE42AA787B47ACFAED64E5223A56622 /* Debug */,
+				B72D46E68BC6E41D39F334B28899704D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9452CF0D75A068ACBF6D087E19E6AFD9 /* Build configuration list for PBXNativeTarget "Pods-PickCreatePod05_Example-PickCreatePod05_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6877CAD8DC92D949E544978B40EDFF14 /* Debug */,
+				FC87F83FA2C0BCE2B9160B0A5B95D7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B43982ACBC0EF235A1E7D79601C11535 /* Build configuration list for PBXNativeTarget "PickCreatePod05" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C982122A81B0C014EA597213633747D9 /* Debug */,
+				B29720AA6A07053F4582E3035EE923AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

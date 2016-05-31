@@ -4,8 +4,6 @@ target 'PickCreatePod05_Example' do
   pod 'PickCreatePod05', :path => '../'
 
   target 'PickCreatePod05_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
+    pod 'PickCreatePod05', :path => '../'
   end
 end
