@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PickCreatePod05_Example' do
+  pod 'PickCreatePod05', :path => '../'
+
+  target 'PickCreatePod05_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
